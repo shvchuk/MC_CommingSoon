@@ -1,0 +1,14 @@
+{
+  "name": "my_coinz_comming_soon",
+  "version": "1.0.0",
+  "description": "my coinz comming soon landing page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "mycoinz.io",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
