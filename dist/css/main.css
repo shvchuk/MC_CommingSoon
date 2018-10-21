@@ -1,2 +1,22 @@
 body {
-  background: #444; }
+  margin: 0;
+  color: #77a6f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+
+#particles-js canvas {
+  background: #aaabb8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+#my-coinz {
+  background: #fff;
+  opacity: 0.6;
+  padding: 2rem;
+  position: absolute;
+  top: 40vh;
+  left: 40vw; }
+  #my-coinz h1 {
+    font-size: 3rem;
+    text-transform: lowercase; }

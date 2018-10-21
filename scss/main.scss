@@ -1,5 +1,43 @@
 $primary-color: #444;
 
+// * {
+//   box-sizing: border-box;
+// }
+
+// body {
+//   background: $primary-color;
+//   height: 100%;
+//   margin: 0;
+//   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+//   line-height: 1.5;
+// }
+
 body {
-  background: $primary-color;
+  margin: 0;
+  color: #77a6f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#particles-js canvas {
+  background: #aaabb8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#my-coinz {
+  background: #fff;
+  opacity: 0.6;
+  padding: 2rem;
+  //border: #ccc 2px solid;
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+
+  h1 {
+    font-size: 3rem;
+    //font-weight: 400;
+    text-transform: lowercase;
+  }
 }
