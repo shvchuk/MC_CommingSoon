@@ -1,21 +1,10 @@
 $primary-color: #444;
 
-// * {
-//   box-sizing: border-box;
-// }
-
-// body {
-//   background: $primary-color;
-//   height: 100%;
-//   margin: 0;
-//   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-//   line-height: 1.5;
-// }
-
 body {
   margin: 0;
   color: #77a6f7;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
 }
 
 #particles-js canvas {
@@ -26,14 +15,19 @@ body {
   z-index: -1;
 }
 
+.container {
+  text-align: center;
+}
+
 #my-coinz {
   background: #fff;
   opacity: 0.6;
   padding: 2rem;
   //border: #ccc 2px solid;
   position: absolute;
-  top: 40vh;
-  left: 40vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
   h1 {
     font-size: 3rem;

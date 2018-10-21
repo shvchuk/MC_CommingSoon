@@ -1,7 +1,8 @@
 body {
   margin: 0;
   color: #77a6f7;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden; }
 
 #particles-js canvas {
   background: #aaabb8;
@@ -10,13 +11,17 @@ body {
   height: 100%;
   z-index: -1; }
 
+.container {
+  text-align: center; }
+
 #my-coinz {
   background: #fff;
   opacity: 0.6;
   padding: 2rem;
   position: absolute;
-  top: 40vh;
-  left: 40vw; }
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
   #my-coinz h1 {
     font-size: 3rem;
     text-transform: lowercase; }
