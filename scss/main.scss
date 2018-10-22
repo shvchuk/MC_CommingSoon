@@ -1,14 +1,15 @@
-$primary-color: #444;
+$canvas-color: #aaabb8;
 
 body {
   margin: 0;
-  color: #77a6f7;
+  //color: #77a6f7;
+  color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
 }
 
 #particles-js canvas {
-  background: #aaabb8;
+  background: lighten($canvas-color, 15%);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -20,18 +21,59 @@ body {
 }
 
 #my-coinz {
-  background: #fff;
-  opacity: 0.6;
+  //background: #fff;
+  //background: #25274d;
+  background: #44318d;
+  opacity: 0.8;
   padding: 2rem;
   //border: #ccc 2px solid;
+  border-radius: 10px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 
   h1 {
-    font-size: 3rem;
-    //font-weight: 400;
+    font-size: 6rem;
+    margin: 0;
     text-transform: lowercase;
+  }
+
+  h1 span {
+    //color: #aaabb8;
+    //color: #a4b3b6;
+    //color: #d83f87;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+
+  .countdown div {
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0.5rem;
+    //opacity: 0.7;
+    //background: #000;
+    background: darken(#a4b3b6, 20%);
+  }
+
+  .countdown div:first-child {
+    //background: #e98074;
+    background: #d83f87;
+  }
+
+  .countdown span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 }

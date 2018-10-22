@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  color: #77a6f7;
+  color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden; }
 
 #particles-js canvas {
-  background: #aaabb8;
+  background: #d4d4db;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -15,13 +15,34 @@ body {
   text-align: center; }
 
 #my-coinz {
-  background: #fff;
-  opacity: 0.6;
+  background: #44318d;
+  opacity: 0.8;
   padding: 2rem;
+  border-radius: 10px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%); }
   #my-coinz h1 {
-    font-size: 3rem;
+    font-size: 6rem;
+    margin: 0;
     text-transform: lowercase; }
+  #my-coinz h2 {
+    margin: 0; }
+  #my-coinz .countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; }
+  #my-coinz .countdown div {
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0.5rem;
+    background: #6d8387; }
+  #my-coinz .countdown div:first-child {
+    background: #d83f87; }
+  #my-coinz .countdown span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400; }
