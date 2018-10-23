@@ -1,0 +1,42 @@
+@include mobileS {
+  #my-coinz {
+    width: 100% !important;
+    height: 100% !important;
+
+    h1 {
+      font-size: 3rem !important;
+      margin-top: 10vh !important;
+    }
+
+    h2 {
+      font-size: 1rem !important;
+      font-weight: 300 !important;
+    }
+
+    h3 {
+      font-size: 1rem !important;
+      font-weight: 300 !important;
+    }
+
+    .countdown {
+      font-size: 1.5rem !important;
+      font-weight: 400 !important;
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .countdown span {
+      font-size: 1rem !important;
+      font-weight: 300 !important;
+    }
+  }
+}
+
+@include mobileM {
+}
+
+@include mobileL {
+}
+
+@include tablet {
+}

@@ -3,3 +3,28 @@ $primary-text-color: #fff;
 $my-coinz-box-color: #44318d;
 $countdown-back-color: #a4b3b6;
 $days-back-color: #d83f87;
+
+// media query mixins
+@mixin mobileS {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin mobileM {
+  @media screen and (min-width: 321px) and (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin mobileL {
+  @media screen and (min-width: 376px) and (max-width: 425px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    @content;
+  }
+}

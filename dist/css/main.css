@@ -1,3 +1,25 @@
+@media screen and (max-width: 320px) {
+  #my-coinz {
+    width: 100% !important;
+    height: 100% !important; }
+    #my-coinz h1 {
+      font-size: 3rem !important;
+      margin-top: 10vh !important; }
+    #my-coinz h2 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz h3 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz .countdown {
+      font-size: 1.5rem !important;
+      font-weight: 400 !important;
+      display: grid !important;
+      grid-template-columns: 1fr 1fr; }
+    #my-coinz .countdown span {
+      font-size: 1rem !important;
+      font-weight: 300 !important; } }
+
 body {
   margin: 0;
   color: #fff;
