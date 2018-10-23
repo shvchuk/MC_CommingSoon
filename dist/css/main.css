@@ -20,6 +20,70 @@
       font-size: 1rem !important;
       font-weight: 300 !important; } }
 
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  #my-coinz {
+    width: 100% !important;
+    height: 100% !important; }
+    #my-coinz h1 {
+      font-size: 3.5rem !important;
+      margin-top: 10vh !important; }
+    #my-coinz h2 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz h3 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz .countdown {
+      font-size: 1.5rem !important;
+      font-weight: 400 !important;
+      display: grid !important;
+      grid-template-columns: 1fr 1fr; }
+    #my-coinz .countdown span {
+      font-size: 1rem !important;
+      font-weight: 300 !important; } }
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  #my-coinz {
+    width: 100% !important;
+    height: 100% !important; }
+    #my-coinz h1 {
+      font-size: 4rem !important;
+      margin-top: 10vh !important; }
+    #my-coinz h2 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz h3 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz .countdown {
+      font-size: 1.5rem !important;
+      font-weight: 400 !important;
+      display: grid !important;
+      grid-template-columns: 1fr 1fr; }
+    #my-coinz .countdown span {
+      font-size: 1rem !important;
+      font-weight: 300 !important; } }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #my-coinz {
+    padding: 1rem !important; }
+    #my-coinz h1 {
+      font-size: 4rem !important; }
+    #my-coinz h2 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz h3 {
+      font-size: 1rem !important;
+      font-weight: 300 !important; }
+    #my-coinz .countdown {
+      font-size: 1.5rem !important;
+      font-weight: 400 !important;
+      display: grid !important;
+      grid-template-columns: 1fr 1fr; }
+    #my-coinz .countdown span {
+      font-size: 1rem !important;
+      font-weight: 300 !important; } }
+
 body {
   margin: 0;
   color: #fff;
