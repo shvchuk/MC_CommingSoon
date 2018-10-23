@@ -84,6 +84,25 @@
       font-size: 1rem !important;
       font-weight: 300 !important; } }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #my-coinz {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important; }
+    #my-coinz h1 {
+      font-size: 6rem !important; }
+    #my-coinz h2 {
+      font-size: 1.5rem !important;
+      font-weight: 400 !important; }
+    #my-coinz h3 {
+      font-size: 1rem !important;
+      font-weight: 350 !important; }
+    #my-coinz .countdown {
+      font-size: 2rem !important;
+      font-weight: 400 !important; }
+    #my-coinz .countdown span {
+      font-size: 1.5rem !important;
+      font-weight: 300 !important; } }
+
 body {
   margin: 0;
   color: #fff;
