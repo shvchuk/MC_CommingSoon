@@ -1,8 +1,8 @@
-$canvas-color: #aaabb8;
+@import "config";
 
 body {
   margin: 0;
-  color: #fff;
+  color: $primary-text-color;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 #my-coinz {
-  background: #44318d;
+  background: $my-coinz-box-color;
   opacity: 0.8;
   padding: 2rem;
   border-radius: 10px;
@@ -57,11 +57,11 @@ body {
     border: 1px solid #fff;
     border-radius: 10px;
     margin: 0.5rem;
-    background: darken(#a4b3b6, 20%);
+    background: darken($countdown-back-color, 20%);
   }
 
   .countdown div:first-child {
-    background: #d83f87;
+    background: $days-back-color;
   }
 
   .countdown span {
